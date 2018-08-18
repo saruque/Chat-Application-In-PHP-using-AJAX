@@ -1,0 +1,85 @@
+body{margin:0; padding: 0; font-family: 'Open Sans', sans-serif, arial; font-size: 14px; background: black; overflow: hidden;}
+*{font-family: 'Open Sans', sans-serif, arial; font-size: 14px; color:#555; }
+.main{max-width:1024px; width:100%; margin:auto; }
+.header{background: #3B5898}
+.header h1{max-width:1024px; width:100%; margin:0 auto; padding:10px 0; font-size: 20px; color: #fff; text-align: left; font-weight: 300}
+.userscreen{margin: auto; text-align: center; margin-top: 24%}
+.input-user {
+  padding: 10px;
+  border: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  width:250px;
+}
+.input-user:focus,
+.input-user.focus {
+  border: solid 2px #726da5;
+}
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));
+	background:-moz-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:-webkit-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:-o-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:-ms-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad', endColorstr='#5972a7',GradientType=0);
+	background-color:#637aad;
+	border:1px solid #314179;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif, arial;
+	font-size:13px;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5972a7), color-stop(1, #637aad));
+	background:-moz-linear-gradient(top, #5972a7 5%, #637aad 100%);
+	background:-webkit-linear-gradient(top, #5972a7 5%, #637aad 100%);
+	background:-o-linear-gradient(top, #5972a7 5%, #637aad 100%);
+	background:-ms-linear-gradient(top, #5972a7 5%, #637aad 100%);
+	background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5972a7', endColorstr='#637aad',GradientType=0);
+	background-color:#5972a7;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-user{padding:9px 30px; position: relative; top: 0px; font-size: 16px; font-weight: 300}
+
+#result{max-width:1024px; width:100%; padding:10px; background: #f1f1f1; max-height: 80%; overflow-y:auto;}
+
+.chatcontrols{position: fixed; bottom: 0; width: 100%}
+.chatcontrols form{margin: 0}
+#chatbox 
+{
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #777;
+    border-radius: 2px 2px 2px 2px;
+    color: #6C6C6C;
+    height: 35px;
+    margin-top: 10px;
+    outline: medium none;
+    padding: 10px 10px;
+    width: 65.5%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300
+}
+#chatbox:focus{
+    background: none repeat scroll 0 0 white;
+    border-color: #555;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3) inset;
+    color: #A6A6A6;
+ 	content:"";
+}
+
+.btn-send{font-size: 20px; padding: 15px; font-weight: 300}
+.btn-clear{padding: 15px 25px; font-size: 20px; font-weight: 300}
+.logout{float: right; color: #fff; text-decoration: none; font-size: 15px}
